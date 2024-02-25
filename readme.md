@@ -18,6 +18,6 @@ pnpm i
 .envファイルを作成し、上で作成したbotアカウントのTOKENと application idを設定
 
 ```env
-DISCORD_TOKEN=MTIxMDYyOTE0NDkzMzgzNDgyMg.GApi7k.95E51c7OFv1WfN58BP-hQ7ICv8eJenwqN_w79A
-DISCORD_APP_ID=1210629144933834822
+DISCORD_TOKEN=your-app-token
+DISCORD_APP_ID=your-app-id
 ```
