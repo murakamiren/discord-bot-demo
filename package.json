@@ -1,0 +1,27 @@
+{
+	"name": "code",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon src/index.ts",
+		"start": "node dist/index.js",
+		"compile": "tsc -p .",
+		"check": "biome check ./src/",
+		"fix": "biome check --apply ./src/"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "^1.5.3",
+		"nodemon": "^3.1.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"discord.js": "^14.14.1",
+		"dotenv": "^16.4.5"
+	}
+}
